@@ -1,7 +1,24 @@
-* {background-color: pink;}
-{font-family: 'AvenirLTW01-55Oblique'}
+* body {background-color: #F8F4A8;
+
 }
 
-h1 {font-family: Helvetica}
+
+
+
+
+
+h1 {font-family: helvetica;
+font-size: 100px;
+color: #F48081;
+margin-top: 15px
+
+
+}
+
+ul{font-family: helvetica
+font-size: 25px
+color: #F48081
+margin-top: 25px
+
 
 }

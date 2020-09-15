@@ -17,30 +17,15 @@ ul{font-family: helvetica;
 
 
  button {
-  background-color:#aea5ff;
+  background-color:#14A171;
   border: none;
   color:white;
-  font-family:helvetica, sans-serif;
+  font-family:Arial, sans-serif;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
 }
 
-
- a {
-  background-color: #ffde84;
-  color:#000;
-  display:block;
-  font-family:helvetica, sans-serif;
-  padding:2em;
-  width:20%;
-  text-decoration:none;
-}
-
-.padding-hover:hover {
-  background-color: #aea5ff;
-  color:white;
-  text-decoration:underline;
-}
+ 
 
 
 

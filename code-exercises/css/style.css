@@ -23,7 +23,25 @@ ul{font-family: helvetica;
    text-transform: uppercase;
    padding: 1em 2em 1em 2em;}
  }
+
+
+
+a {
+  background-color: #aea5ff;
+  color:#000;
+  display:block;
+  font-family:Arial, sans-serif;
+  padding:2em;
+  width:20%;
+  text-decoration:none;
 }
+
+.padding-hover:hover {
+  background-color: #ffd59d;
+  color:white;
+  text-decoration:underline;}
+}
+
 
 
 
@@ -38,13 +56,14 @@ ul{font-family: helvetica;
   background-size: cover;
   height:700px;
   margin: 0 auto;
-  width:85%;}
+  width:75%;}
 
 h1 {
   color: #fff;
   font-size:52px;
   position:relative;
   text-align:center;}
+}
 
 
 

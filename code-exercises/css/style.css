@@ -35,19 +35,20 @@ ul{font-family: helvetica;
   text-decoration:none;}
 
 .padding-hover:hover {
-  background-color: #ffde84;
+  background-color: #aea5ff;
   color:white;
-  text-decoration:underline;}
+  text-decoration:underline;
 }
+
 
 
 
 .container {
   background-image: url(https://images.unsplash.com/photo-1586376156102-a4859b8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
   background-size: cover;
-  height:800px;
+  height:700px;
   margin: 0 auto;
-  width:85;
+  width:85%;
 
 }
 
@@ -55,13 +56,8 @@ h1 {
   color: #fff;
   font-size:52px;
   position:relative;
-  text-align:center;
+  text-align:center;}
 }
-
-
-
-
-
 
 
 body {
@@ -82,7 +78,7 @@ p {
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   body {
-    background-color: #ffde84;}
+    background-color: #aea5ff;}
 }
 
 @media screen and (max-width: 500px) {

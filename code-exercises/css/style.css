@@ -15,14 +15,16 @@ ul{font-family: helvetica;
  }
 
 
- button {
-   background-color:#a39fff;
+ .button {
    border: none;
-   color:#a39fff;
-   font-family:helvetica, sans-serif;
-   text-transform: uppercase;
-   padding: 1em 2em 1em 2em;}
-
+   color: c3dfff;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;}
 
 
 
@@ -37,7 +39,7 @@ a {
 
 
 .padding-hover:hover {
-  background-color: #ffd59d;
+  background-color: #c3dfff;
   color:white;
   text-decoration:underline;}
 }

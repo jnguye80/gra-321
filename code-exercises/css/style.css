@@ -1,5 +1,7 @@
 * body{background-color: #aea5ff;}
 
+
+
 h1{font-family: helvetica;
    font-size: 80px;
    color: #fff;
@@ -24,10 +26,19 @@ button{background-color: #9bc4ff;
   padding: 1em 2em 1em 2em;}
 
 
+  a {
+    background-color: white;
+    color:#000;
+    display:block;
+    font-family: helvetica, sans-serif;
+    padding:2em;
+    width:20%;
+    text-decoration:none;
+  }
   .padding-hover:hover {
   background-color: #9bc4ff;
   color:white;
-  font-size:52px
+  font-size:72px
   text-decoration:underline;}
 
 

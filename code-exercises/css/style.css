@@ -53,7 +53,7 @@ h1 {
 
 
 body {
-  background-color: #9adeff;}
+  background-color: #aea5ff;}
 
 p {
   font-family: helvetica, sans-serif;
@@ -70,7 +70,7 @@ p {
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   body {
-    background-color: #aea5ff;}
+    background-color: #ffd59d;}
 }
 
 @media screen and (max-width: 500px) {

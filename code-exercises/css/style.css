@@ -56,8 +56,6 @@ a {
 
 }
 
-
-
 h1 {
   color: #fff;
   font-size:52px;
@@ -75,7 +73,7 @@ h1 {
 
 
 
-.body {
+body {
   background-color: #aea5ff;}
 
 p {

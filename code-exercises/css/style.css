@@ -19,7 +19,7 @@ button{background-color:#9bc4ff;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;}
 
-  .container {
+  container {
   background-image: url(https://images.unsplash.com/photo-1564826998072-97e2957ad5df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
   background-size: cover;
   height:700px;

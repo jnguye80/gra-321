@@ -18,7 +18,7 @@ ul{font-family: helvetica;
  button {
    background-color:#a39fff;
    border: none;
-   color:white;
+   color:#a39fff;
    font-family:helvetica, sans-serif;
    text-transform: uppercase;
    padding: 1em 2em 1em 2em;}
@@ -30,17 +30,16 @@ a {
   background-color: #aea5ff;
   color:#000;
   display:block;
-  font-family:Arial, sans-serif;
+  font-family: helvetica, sans-serif;
   padding:2em;
   width:20%;
-  text-decoration:none;
-}
+  text-decoration:none;}
 
 
-.padding-hover: hover {
+.padding-hover:hover {
   background-color: #ffd59d;
   color:white;
-  text-decoration:underline;
+  text-decoration:underline;}
 }
 
 

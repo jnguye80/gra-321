@@ -14,14 +14,17 @@ ul{font-family: helvetica;
    margin-top: 25px;}
  }
 
+
+
  button {
-   background-color:#aea5ff;
-   border: none;
-   color:white;
-   font-family:Arial, sans-serif;
-   text-transform: uppercase;
-   padding: 1em 2em 1em 2em;
- }
+  background-color:#aea5ff; 
+  border: none;
+  color:white;
+  font-family:Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 1em 2em 1em 2em;
+}
+
 
  a {
   background-color: #9bc4ff;
@@ -38,8 +41,6 @@ ul{font-family: helvetica;
   color:white;
   text-decoration:underline;
 }
-
-
 
 
 
@@ -62,7 +63,7 @@ ul{font-family: helvetica;
 
     /*---Default Styling ---*/
 body {
-  background-color: #9bc4ff;
+  background-color: #ffde84;
 }
 p {
   font-family: helvetica, sans-serif;

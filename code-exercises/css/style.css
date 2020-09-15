@@ -17,17 +17,17 @@ ul{font-family: helvetica;
 
 
  button {
-  background-color:#aea5ff; 
+  background-color:#aea5ff;
   border: none;
   color:white;
-  font-family:Arial, sans-serif;
+  font-family:helvetica, sans-serif;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
 }
 
 
  a {
-  background-color: #9bc4ff;
+  background-color: #ffde84;
   color:#000;
   display:block;
   font-family:helvetica, sans-serif;

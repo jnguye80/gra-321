@@ -1,4 +1,4 @@
-body{background-color: #aea5ff;}
+body{background-color: #ffde84;}
 
 
 
@@ -16,29 +16,7 @@ ul{font-family: helvetica;
 
 
 
- button {
-  background-color:#14A171;
-  border: none;
-  color:white;
-  font-family:Arial, sans-serif;
-  text-transform: uppercase;
-  padding: 1em 2em 1em 2em;}
-}
-
-  a {
-  background-color: #aea5ff;
-  color:#000;
-  display:block;
-  font-family:helvetica, sans-serif;
-  padding:2em;
-  width:20%;
-  text-decoration:none;}
-
-.padding-hover:hover {
-  background-color: #aea5ff;
-  color:white;
-  text-decoration:underline;
-}
+ 
 
 
 

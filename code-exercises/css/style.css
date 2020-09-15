@@ -19,11 +19,17 @@ button{background-color:#9bc4ff;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;}
 
-  container {
-  background-image: url(https://images.unsplash.com/photo-1544110734-4d7938e39f33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+  .container {
+  background-image:
+  url(https://images.unsplash.com/photo-1520875296916-67d37f48d263?ixlib=rb-1.2.
+    1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   height:700px;
   margin: 0 auto;
-  width:50%;
+  width:50%;}
 
-}
+  h1 {
+    color: #fff;
+    font-size:52px;
+    position:relative;
+    text-align:center;}

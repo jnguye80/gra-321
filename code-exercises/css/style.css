@@ -18,27 +18,6 @@ ul{font-family: helvetica;
 
 
 
-button{background-color: #aea5ff
-  border: none;
-  color:white;
-  font-family:helvetica, sans-serif;
-  text-transform: uppercase;
-  padding: 1em 2em 1em 2em;}
-
-
-  a {background-color: white;
-    color:#aea5ff;
-    display:block;
-    font-family: helvetica, sans-serif;
-    padding:2em;
-    width:20%;
-    text-decoration:none;}
-
-  .padding-hover:hover {
-  background-color: #9bc4ff;
-  color:white;
-  font-size:72px
-  text-decoration:underline;}
 
 
 

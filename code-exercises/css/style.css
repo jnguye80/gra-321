@@ -59,13 +59,15 @@ a {
 h1 {
   color: #fff;
   font-size:52px;
-  position:relative;
+  position:static;
   text-align:center;
 
 }
 
 .center {
   display: block;
+  height: 700
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;

@@ -1,4 +1,4 @@
-body{background-color: #ffde84;}
+body{background-color: #9adeff;}
 
 
 
@@ -16,13 +16,13 @@ ul{font-family: helvetica;
 
 
 
- 
+
 
 
 
 
 .container {
-  background-image: url(https://images.unsplash.com/photo-1586376156102-a4859b8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
+  background-image: url(https://images.unsplash.com/photo-1586376156102-a4859b8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80https://images.unsplash.com/photo-1586376156102-a4859b8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
   background-size: cover;
   height:700px;
   margin: 0 auto;
@@ -39,7 +39,7 @@ h1 {
 
 
 body {
-  background-color: #ffde84;}
+  background-color: #9adeff;}
 
 p {
   font-family: helvetica, sans-serif;
@@ -61,5 +61,5 @@ p {
 
 @media screen and (max-width: 500px) {
   body {
-    background-color: #fcd0ff;}
+    background-color: #ffd5f7;}
 }

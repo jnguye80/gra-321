@@ -1,4 +1,4 @@
-* body{background-color: #aea5ff;}
+body{background-color: #9bc4ff;}
 
 
 
@@ -26,18 +26,16 @@ button{background-color: #aea5ff
   padding: 1em 2em 1em 2em;}
 
 
-  a {
-    background-color: white;
-    color:#000;
+  a {background-color: white;
+    color:#aea5ff;
     display:block;
     font-family: helvetica, sans-serif;
     padding:2em;
     width:20%;
-    text-decoration:none;
+    text-decoration:none;}
 
-  }
   .padding-hover:hover {
-  background-color: #aea5ff;
+  background-color: #9bc4ff;
   color:white;
   font-size:72px
   text-decoration:underline;}

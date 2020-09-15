@@ -47,10 +47,10 @@ a {
 
 
 .container {
-  background-image:url(https://images.unsplash.com/photo-1586376156102-a4859b
-  8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
+  background-image:
+  url(https://images.unsplash.com/photo-1586376156102-a4859b8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
   background-size: cover;
-  height:500px;
+  height:700px;
   margin: 0 auto;
   width:50%;
 
@@ -66,6 +66,12 @@ h1 {
 
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
 

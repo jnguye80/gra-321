@@ -14,7 +14,30 @@ ul{font-family: helvetica;
    margin-top: 25px;}
  }
 
+ button {
+   background-color:#14A171;
+   border: none;
+   color:white;
+   font-family:Arial, sans-serif;
+   text-transform: uppercase;
+   padding: 1em 2em 1em 2em;
+ }
 
+ a {
+  background-color: #9bc4ff;
+  color:#000;
+  display:block;
+  font-family:helvetica, sans-serif;
+  padding:2em;
+  width:20%;
+  text-decoration:none;
+}
+
+.padding-hover:hover {
+  background-color: #aea5ff;
+  color:white;
+  text-decoration:underline;
+}
 
 
 
@@ -22,7 +45,7 @@ ul{font-family: helvetica;
 
 
   .container {
-  background-image: url(https://images.unsplash.com/photo-1570978561297-793391262fea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-image: url(https://images.unsplash.com/photo-1586376156102-a4859b8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
   background-size: cover;
   height:700px;
   margin: 0 auto;

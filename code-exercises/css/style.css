@@ -1,4 +1,4 @@
-.body{background-color: #aea5ff;}
+body{background-color: #aea5ff;}
 
 
 
@@ -28,7 +28,7 @@ ul{font-family: helvetica;
 
 
 
-.a {
+a {
   background-color: #aea5ff;
   color:#000;
   display:block;
@@ -47,17 +47,25 @@ ul{font-family: helvetica;
 
 
 .container {
-  background-image: url(https://images.unsplash.com/photo-1550088229-b2b5456807d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+  background-image:url(https://images.unsplash.com/photo-1586376156102-a4859b
+  8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
   background-size: cover;
-  height:700px;
+  height:500px;
   margin: 0 auto;
-  width:50%;}
+  width:50%;
+
+}
+
+
 
 h1 {
   color: #fff;
   font-size:52px;
   position:relative;
-  text-align:center;}
+  text-align:center;
+
+}
+
 
 
 

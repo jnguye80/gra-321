@@ -23,9 +23,10 @@ ul{font-family: helvetica;
   font-family:Arial, sans-serif;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;}
+}
 
   a {
-  background-color: #ffde84;
+  background-color: #aea5ff;
   color:#000;
   display:block;
   font-family:helvetica, sans-serif;
@@ -34,10 +35,34 @@ ul{font-family: helvetica;
   text-decoration:none;}
 
 .padding-hover:hover {
-  background-color: LightSalmon;
+  background-color: #ffde84;
   color:white;
   text-decoration:underline;}
 }
+
+
+
+.container {
+  background-image: url(https://images.unsplash.com/photo-1586376156102-a4859b8783d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
+  background-size: cover;
+  height:800px;
+  margin: 0 auto;
+  width:85;
+
+}
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+}
+
+
+
+
+
+
 
 body {
   background-color: #ffde84;}
@@ -57,7 +82,7 @@ p {
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   body {
-    background-color: #c7a2ff;}
+    background-color: #ffde84;}
 }
 
 @media screen and (max-width: 500px) {

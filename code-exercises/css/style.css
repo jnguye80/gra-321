@@ -1,4 +1,4 @@
-body{background-color: #9adeff;}
+body{background-color: #aea5ff;}
 
 
 
@@ -15,7 +15,14 @@ ul{font-family: helvetica;
  }
 
 
-
+ button {
+   background-color:#a39fff;
+   border: none;
+   color:white;
+   font-family:Arial, sans-serif;
+   text-transform: uppercase;
+   padding: 1em 2em 1em 2em;}
+ }
 
 
 
@@ -30,7 +37,7 @@ ul{font-family: helvetica;
   background-size: cover;
   height:700px;
   margin: 0 auto;
-  width:75%;}
+  width:52%;}
 
 h1 {
   color: #fff;

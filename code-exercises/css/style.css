@@ -1,18 +1,18 @@
-* body{background-color: #B8A1FF;}
+* body{background-color: #9bc4ff;}
 
 h1{font-family: helvetica;
-font-size: 80px;
-color: #9bc4ff;
-margin-top: 15px}
+   font-size: 80px;
+   color: #fff;
+   margin-top: 15px}
 
 
 ul{font-family: helvetica;
-font-size: 30px;
-color: #9bc4ff;
-margin-top: 25px;}
+   font-size: 30px;
+   color: #fff;
+   margin-top: 25px;}
 
 
-button{background-color:#9bc4ff;
+button{background-color: #9bc4ff;
   border: none;
   color:white;
   font-family:helvetica, sans-serif;
@@ -24,8 +24,7 @@ button{background-color:#9bc4ff;
   background-size: cover;
   height:700px;
   margin: 0 auto;
-  width:50%;
-}
+  width:100%;}
 
 
   h1 {

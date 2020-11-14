@@ -1,7 +1,22 @@
-* {
-
+body {
+background-color:#DBCFC7;
 }
 
 h1 {
 
 }
+
+.nav-bar {
+  font-family: Optima;
+  width: 100%;
+  background-color: #C6AD9D;
+  text-align: center;
+  padding: 5px auto;
+}
+
+
+@media only screen and (min-width:400px) {
+  .nav-bar {
+  display: flex;
+  justify-content: space-around;
+  }

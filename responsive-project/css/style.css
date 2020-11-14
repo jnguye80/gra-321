@@ -3,8 +3,15 @@ background-color:#DBCFC7;
 }
 
 h1 {
-
+  font-family: InaiMathi, sans-serif;
+  color: black;
+  font-size:65px;
+  position: relative;
+  text-align: center;
 }
+
+
+
 
 .nav-bar {
   font-family: Optima;
@@ -19,4 +26,38 @@ h1 {
   .nav-bar {
   display: flex;
   justify-content: space-around;
+  }
+
+  p {
+    font-family: optima;
+    color: #855A5A;
+    font-size: 15px;
+    margin-left: 7%
+  }
+  section {
+    font-family: Optima, sans-serif;
+    color: ##855A5A;
+    font-size:65px;
+    position: relative;
+    text-align: center
+  }
+  .logo{
+    margin-top: 8;
+    text-align:center;
+    margin-bottom: 8;
+  }
+
+  button {
+    border: none;
+    font-family: Optima;
+    color: #855A5A;
+    font-size: 25px;
+    background-color: #F0DBDB;
+    padding:1em 2em 1em 2em;
+  }
+
+  .about{
+    color: #855A5A;
+    font-size:52px;
+    text-align: center;
   }

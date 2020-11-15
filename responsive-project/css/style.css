@@ -17,11 +17,15 @@ h1{
 h2{
   font-family: Optima, sans-serif;
   color: black;
-  font-size:38px;
+  font-size:40px;
   position: relative;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
   }
 
-  h3{
+
+h3{
     font-family: Optima, sans-serif;
     color: black;
     font-size:35px;
@@ -37,12 +41,23 @@ h5{
   text-align: center;
 }
 
-.p1 { font-family: Optima, sans-serif;
-color: black;
-font-size:33px;
-position: relative;
+p1	{
+		color: black;
+		font-family: Optima;
+		font-size:33px;
 
 }
+
+
+p2	{
+			color: black;
+			font-family: Optima;
+			pont-size:10px;
+      text-align: center;
+
+			}
+
+
 
 body {
   margin: 0;
@@ -72,6 +87,10 @@ body {
   display: flex;
   justify-content: space-around;
   }
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 500px) {
 
   p {
     font-family: optima;
@@ -145,4 +164,13 @@ body {
 	display: inline-flex;
 	margin-right: 4%;
 	margin-bottom: 4%;
+}
+
+
+#map {
+  display:inlie;
+  align: center;
+  width: 400px%;
+  height: 400px;
+
 }

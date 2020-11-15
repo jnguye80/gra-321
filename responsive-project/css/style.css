@@ -6,11 +6,20 @@ background-color:#DBCFC7;
 h1{
   font-family: Optima, sans-serif;
   color: black;
-  font-size:65px;
+  font-size:50px;
+  position: relative;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+h5{
+  font-family: Optima, sans-serif;
+  color: black;
+  font-size:40px;
   position: relative;
   text-align: center;
 }
-
 
 body {
   margin: 0;
@@ -18,7 +27,7 @@ body {
 }
 
 .nav-bar {
-  font-family: Optima, serif;
+  font-family: Optima, sans-serif;
   width: 100%;
   background-color: #C6AD9D;
   text-align: center;
@@ -28,16 +37,11 @@ body {
 .nav-bar a  {
   width:100%;
   color: black;
-  text-align: center;
   text-decoration: none;
 }
 
 .nav-bar:first-child, .nav-bar:first-child {
   padding: 10px 0px;
-}
-
-.nav-bar:first-child, .nav-bar:first-child {
-  padding: 0px 0px;
 }
 
 @media only screen and (min-width:100px) {

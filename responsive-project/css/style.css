@@ -13,10 +13,19 @@ h1{
   padding-bottom: 1px;
 }
 
-h5{
+
+h3{
   font-family: Optima, sans-serif;
   color: black;
   font-size:40px;
+  position: relative;
+  }
+
+
+h5{
+  font-family: Optima, sans-serif;
+  color: black;
+  font-size:35px;
   position: relative;
   text-align: center;
 }
@@ -85,21 +94,41 @@ body {
     text-align: center;
   }
 
-  .photo-1 {
+
+.title-1{
+    display:inline;
+    float:left;
+    padding-right: 4%
+  }
+
+.title-2{
+    display:inline;
+    float:center;
+    padding-right: 4%
+}
+
+.title-3{
+  display:inline;
+  float:right;
+}
+
+
+
+.photo-1 {
   	display: inline-flex;
   	margin-left: 5%;
-  	margin-right: 3%;
-  	margin-bottom: 3%;
+  	margin-right: 4%;
+  	margin-bottom: 4%;
   }
 
   .photo-2 {
 	display: inline-flex;
-	margin-right: 3%;
-	margin-bottom: 3%;
+	margin-right: 4%;
+	margin-bottom: 4%;
 }
 
  .photo-3 {
 	display: inline-flex;
-	margin-right: 3%;
-	margin-bottom: 3%;
+	margin-right: 4%;
+	margin-bottom: 4%;
 }

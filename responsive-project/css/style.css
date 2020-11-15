@@ -12,15 +12,33 @@ h1{
 }
 
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-bar {
-  font-family: Optima;
-  color: black;
+  font-family: Optima, serif;
   width: 100%;
   background-color: #C6AD9D;
   text-align: center;
-  padding: 2px auto;
+  padding: 5px auto;
 }
 
+.nav-bar a  {
+  width:100%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-bar:first-child, .nav-bar:first-child {
+  padding: 10px 0px;
+}
+
+.nav-bar:first-child, .nav-bar:first-child {
+  padding: 0px 0px;
+}
 
 @media only screen and (min-width:100px) {
   .nav-bar{

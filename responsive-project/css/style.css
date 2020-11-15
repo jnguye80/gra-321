@@ -14,12 +14,19 @@ h1{
 }
 
 
-h3{
+h2{
   font-family: Optima, sans-serif;
   color: black;
-  font-size:40px;
+  font-size:38px;
   position: relative;
   }
+
+  h3{
+    font-family: Optima, sans-serif;
+    color: black;
+    font-size:35px;
+    position: relative;
+    }
 
 
 h5{
@@ -28,6 +35,13 @@ h5{
   font-size:35px;
   position: relative;
   text-align: center;
+}
+
+p1 { font-family: Optima, sans-serif;
+color: black;
+font-size:33px;
+position: relative;
+
 }
 
 body {
@@ -104,12 +118,12 @@ body {
 .title-2{
     display:inline;
     float:center;
-    padding-right: 4%
 }
 
 .title-3{
   display:inline;
   float:right;
+  padding-right: 1%
 }
 
 
@@ -121,7 +135,7 @@ body {
   	margin-bottom: 4%;
   }
 
-  .photo-2 {
+.photo-2 {
 	display: inline-flex;
 	margin-right: 4%;
 	margin-bottom: 4%;

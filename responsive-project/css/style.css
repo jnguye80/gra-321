@@ -20,7 +20,7 @@ h2 {
 
 .container
 {
-  background-image: url(https://github.com/Jwdavi15/gra-321/blob/master/responsive-design/img/nordwood-themes-Ex5TQsRANZk-unsplash.jpg?raw=true);
+  background-image: url();
   background-repeat: no-repeat;
   width:100%;
   height: 100px;
@@ -81,12 +81,6 @@ p3{
 }
 
 
-header {
-background-color: white;
-width: 100%;
-margin-left: 5%;
-margin-right: 5%;
-}
 
 .header-nav {
   background-color: #E8C69F;
@@ -97,13 +91,14 @@ margin-right: 5%;
 .nav-bar {
   align-item
   s: center;
+  color :#E8C69F;
   width: 100%;
   position: relative;
   justify-content: space-between;
 }
 
 #logo {
-height:50px;
+height:100%;
 
 }
 
@@ -182,13 +177,14 @@ header {
 .nav-bar {
   position: relative;
   display: block;
+  color: #E8C69F;
 width:100%;
 margin-right: 20%;
 }
 
 .container
 {
-  background-image: url(https://github.com/Jwdavi15/gra-321/blob/master/responsive-design/img/nordwood-themes-Ex5TQsRANZk-unsplash.jpg?raw=true);
+  background-image: url(?raw=true);
   background-repeat: no-repeat;
   width:100%;
   height: 100px;
@@ -246,31 +242,7 @@ margin-right: 20%;
   margin-left: 22%;
 }
 
-#map {
-  display:inlie;
-  margin-left: 60%;
-  align: right;
-  width: 350px;
-  height: 350px;
 
-}
-
-#food {
-
-  width: 350px;
-  height: 350px;
-  object-fit:cover;
-}
-
-#hot-drink {
-  width: 350px;
-  height: 350px;
-}
-
-#cold-drink {
-  width: 350px;
-  height: 350px;
-}
 
 h1 {
   font-family: Optima,sans-serif;

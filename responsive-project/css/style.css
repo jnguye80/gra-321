@@ -1,177 +1,301 @@
 body {
-background-color:#DBCFC7;
+background-color:#F4ECD6;
 }
 
-
-h1{
-  font-family: Optima, sans-serif;
+h1 {
+  font-family: Optima,sans-serif;
+  font-size: 25px;
+  font-weight: bold;
   color: black;
-  font-size:50px;
-  position: relative;
-  text-align: center;
-  padding-top: 1px;
-  padding-bottom: 1px;
+
 }
 
-
-h2{
+h2 {
   font-family: Optima, sans-serif;
+  font-size: 20px;
+  line-height: 22px;
   color: black;
-  font-size:40px;
-  position: relative;
-  text-align: center;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  display: internal;
-  }
-
-
-h3{
-    font-family: Optima, sans-serif;
-    color: black;
-    font-size:35px;
-    position: relative;
-    }
-
-
-h5{
-  font-family: Optima, sans-serif;
-  color: black;
-  font-size:35px;
-  position: relative;
-  text-align: center;
-}
-
-p1	{
-		color: black;
-		font-family: Optima;
-		font-size:33px;
-
 }
 
 
-p2	{
-			color: black;
-			font-family: Optima;
-			pont-size:10px;
-      text-align: center;
+.container
+{
+  background-image: url(https://github.com/Jwdavi15/gra-321/blob/master/responsive-design/img/nordwood-themes-Ex5TQsRANZk-unsplash.jpg?raw=true);
+  background-repeat: no-repeat;
+  width:100%;
+  height: 100px;
+  background-size:cover;
+  background-position: left center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
 
-			}
+.body-container1
+{
+  margin-left: 5%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.body-container2
+{
+  margin-left: 5%;
+  margin-bottom: 3%;
+  margin-left: 10%;
+  margin-right: 5%;
+  display: inline-block;
+}
+
+.small-container{
+  display:inline-block;
+  margin-left: 10%;
+}
+
+.small-container2{
+  display:inline-block;
+  margin-left: 13.5%;
+}
+
+.ML-container{
+  display:inline-block;
+  margin-left: 5%;
+}
+
+p1 {
+  font-family: Optima,sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+p2{
+  font-family: Optima,sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+}
+p3{
+  font-family: Optima,sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+}
 
 
+header {
+background-color: white;
+width: 100%;
+margin-left: 5%;
+margin-right: 5%;
+}
 
-body {
-  margin: 0;
-  padding: 0;
+.header-nav {
+  background-color: #E8C69F;
+  width:100%;
+  margin-right: 20%;
 }
 
 .nav-bar {
-  font-family: Optima, sans-serif;
+  align-item
+  s: center;
   width: 100%;
-  background-color: #C6AD9D;
-  text-align: center;
-  padding: 5px auto;
+  position: relative;
+  justify-content: space-between;
 }
 
-.nav-bar a  {
-  width:100%;
+#logo {
+height:50px;
+
+}
+
+#toggle {
+display:none;
+}
+
+label {
+font-size: 40px;
+line-height:100px;
+ cursor: pointer;
+ margin-left: 2.5%;
+}
+
+ul.menu-items {
+list-style-type: none;
+text-align: left;
+display: block;
+margin-right: 5%;
+
+
+}
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: left;
   color: black;
-  text-decoration: none;
+  display:block;
 }
 
-.nav-bar:first-child, .nav-bar:first-child {
-  padding: 10px 0px;
+#toggle:checked ~ ul.menu-items {
+  display:none;
 }
 
-@media only screen and (min-width:100px) {
-  .nav-bar{
+#map {
+  width: 50%;
   display: flex;
-  justify-content: space-around;
-  }
+  margin-left: 10%
+
+}
+
+a:link {
+  font-family: sans-serif;
+  font-size: 25px;
+  line-height: 22px;
+  color: #550000;
+  text-decoration: none;
+
+}
+
+
 
 
 /*Desktop Styles*/
 @media only screen and (min-width: 800px) {
 
-  p {
-    font-family: optima;
-    color: #black;
-    font-size: 15px;
-    text-align: center;
-  }
-  section {
-    font-family: Optima, sans-serif;
-    color: ##855A5A;
-    font-size:65px;
-    position: relative;
-    text-align: center
+.header-nav {
+  background-color: #E8C69F;
+  width:100%;
+  margin: 0 auto;
+  display:block;
+    align-items: left;
+    justify-content: space-between;
+margin-right: 20%;
   }
 
-  .logo{
-    margin-top: 10px;
-    text-align:center;
-    margin-bottom: 6px;
-  }
-
-  button {
-    border: none;
-    font-family: Optima;
-    color: black;
-    font-size: 25px;
-    background-color: #F0DBDB;
-    padding:1em 2em 1em 2em;
-  }
-
-  .about{
-    color: black;
-    font-size:55px;
-    text-align: center;
-  }
+header {
+    background-color: white;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
 
 
-.title-1{
-    display:inline;
-    float:left;
-    padding-right: 4%
-  }
-
-.title-2{
-    display:inline;
-    float:center;
+.nav-bar {
+  position: relative;
+  display: block;
+width:100%;
+margin-right: 20%;
 }
 
-.title-3{
-  display:inline;
-  float:right;
-  padding-right: 1%
+.container
+{
+  background-image: url(https://github.com/Jwdavi15/gra-321/blob/master/responsive-design/img/nordwood-themes-Ex5TQsRANZk-unsplash.jpg?raw=true);
+  background-repeat: no-repeat;
+  width:100%;
+  height: 100px;
+  background-size:cover;
+  background-position: left center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-
-
-.photo-1 {
-  	display: inline-flex;
-  	margin-left: 5%;
-  	margin-right: 4%;
-  	margin-bottom: 4%;
-  }
-
-.photo-2 {
-	display: inline-flex;
-	margin-right: 4%;
-	margin-bottom: 4%;
+#logo {
+height:50px;
+align-self: center;
+display: block;
 }
 
- .photo-3 {
-	display: inline-flex;
-	margin-right: 4%;
-	margin-bottom: 4%;
+#toggle {
+display:none;
 }
 
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display:inline-flex;
+margin: 0;
+list-style-type: none;
+text-align: left;
+border-top:none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ul.menu-items a {
+display:table;
+margin-right: 20%;
+padding-right: 20%;
+}
+
+ul.menu-items {
+list-style-type: none;
+text-align: left;
+display: flex;
+margin-right: 20%;
+}
+
+.small-container{
+  display:inline-block;
+  margin-left: 20%;
+}
+
+.small-container2{
+  display:inline-block;
+  margin-left: 22%;
+}
 
 #map {
   display:inlie;
-  align: center;
-  height: 600px;
+  margin-left: 60%;
+  align: right;
+  width: 350px;
+  height: 350px;
 
+}
+
+#food {
+
+  width: 350px;
+  height: 350px;
+  object-fit:cover;
+}
+
+#hot-drink {
+  width: 350px;
+  height: 350px;
+}
+
+#cold-drink {
+  width: 350px;
+  height: 350px;
+}
+
+h1 {
+  font-family: Optima,sans-serif;
+  font-size: 50px;
+  font-weight: semi-bold
+
+}
+
+h2 {
+  font-family: Optima,sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+p1 {
+  font-family: Optima,sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+p2{
+  font-family: Optima,sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+}
 
 }

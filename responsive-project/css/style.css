@@ -18,16 +18,39 @@ h2 {
 }
 
 
-.container
-{
-  background-image: url(https://github.com/jnguye80/gra-321/blob/master/responsive-project/about-photo.jpg?raw=true);
-  background-repeat: no-repeat;
-  height: 50%;
-  background-size:cover;
-  align-content: left;
-  display: flex;
-  justify-content: left;
+body {
+  margin: 0px;
+
+  background-color: #F4ECD6;
 }
+
+section {
+  background-color: #F4ECD6;
+
+}
+
+.column-one, .column-two {
+width: 100%;
+
+background-color:
+}
+
+.column-one img {
+width: 100%;
+}
+
+
+.column-three,.specials {
+width: 100%;
+
+background-color:
+}
+
+.column-three img {
+width: 100%;
+}
+
+
 
 .body-container1
 {
@@ -35,7 +58,7 @@ h2 {
   margin-bottom: 10%;
   margin-left: 60px;
   display: inline-block;
-  text-align: left;
+  text-align: right;
 }
 
 .body-container2
@@ -82,7 +105,7 @@ p3{
 
 
 .header-nav {
-  background-color: #E8C69F;
+  background-color: #F4ECD6;
   width:100%;
   margin-right: 20%;
 }
@@ -90,7 +113,7 @@ p3{
 .nav-bar {
   align-item
   s: center;
-  color :#E8C69F;
+  color : #F4ECD6;
   width: 100%;
   position: relative;
   justify-content: space-between;
@@ -98,11 +121,6 @@ p3{
 
 
 
-#toggle {
-display:none;
-position:
-
-}
 
 label {
 font-size: 40px;
@@ -132,7 +150,6 @@ ul.menu-items a {
 
 #toggle:checked ~ ul.menu-items {
   display:none;
-al
 }
 
 #map {
@@ -146,7 +163,7 @@ a:link {
   font-family: sans-serif;
   font-size: 25px;
   line-height: 22px;
-  color: #550000;
+  color: #F4ECD6;
   text-decoration: none;
 
 }
@@ -154,34 +171,172 @@ a:link {
 
 
 
-/*Desktop Styles*/
-@media only screen and (min-width: 700px) {
+html {
+font-size: 16px;
+box-sizing: border-box;
+}
 
-.header-nav {
-  background-color: #E8C69F;
-  width:100%;
-  margin: 0 auto;
-  display:block;
-    align-items: left;
-    justify-content: space-between;
-margin-right: 20%;
-  }
+body {
+  background-color: #F4ECD6;
+   margin:0;
+  padding:0;
+}
 
 header {
-    background-color: white;
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    }
+background-color: #F4ECD6;
+width: 100%;
 
+}
+
+
+.header-nav {
+  background-color: #F4ECD6;
+  width:100%;
+}
 
 .nav-bar {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
   position: relative;
-  display: block;
-  color: #E8C69F;
-width:100%;
-margin-right: 20%;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
 }
+
+#logo {
+height:100px;
+}
+
+
+
+label {
+font-size: 50px;
+line-height:100px;
+cursor: pointer;
+background-color: #F4ECD6;
+}
+
+ul.menu-items {
+padding: 20px 0 0 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+  background-color: #F4ECD6;
+
+}
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: center;
+  color: black;
+  display:block;
+  background-color:#F4ECD6;
+}
+
+ul.menu-items a:first-of-type {
+  padding-top:10px;
+}
+
+ul.menu-items a:last-of-type {
+  padding-bottom:10px;
+}
+
+
+
+
+#drink-menu, #food-menu, #get-in-touch {
+  height:500px;
+}
+
+/*Desktop Styles*/
+
+@media only screen and (min-width: 800px) {
+  .header-nav {
+  background-color: #F4ECD6;
+  width:90%;
+  margin: 0 auto;
+  display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+  .menu-items li a {
+  background-color: #F4ECD6; /*change color here */
+    color: black;
+
+  }
+
+.nav-bar {
+  display:inline-block;
+  position: relative;
+  padding: 30px 0 30px 0;
+  width:60%;
+}
+
+
+#toggle {
+display:none;
+}
+
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display: flex;
+margin: 0;
+list-style-type: none;
+text-align: right;
+border-top:none;
+  width: 60%;
+  justify-content: space-between;
+}
+  ul.menu-items {
+padding: 0px 0 0px 0;
+    height: 100px;
+}
+}
+
+@media only screen and (min-width:800px) {
+
+
+
+
+
+  #about  {
+  width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  #special-menu  {
+  width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .column-one {
+  width: 40%;
+  }
+
+.column-two {
+  width: 50%;
+    margin-right: 3%;
+  }
+
+.column-three {
+width: 40%;
+}
+
+.specials {
+width: 50%;
+  margin-left: 3%;
+}
+
 
 .container
 {

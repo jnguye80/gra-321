@@ -1,7 +1,29 @@
-* {
+body{background-color: #ffa2ae;
 
 }
 
-h1 {
+h1{font-family: Optima, sans-serif;
+font-size: 80px;
+color: white;
+margin-top: 15px
+
+
+}
+
+
+h2{font-family: Optima, sans-serif;
+font-size: 40px;
+color: white;
+margin-top: 15px
+
+
+}
+
+
+ul{font-family: Optima, sans-serif;
+font-size: 30px;
+color: white;
+margin-top: 25px;
+
 
 }

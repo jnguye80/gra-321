@@ -135,6 +135,7 @@ width: 100%;
 }
 
 .column-one img {
+margin-top: 40px;
 width: 100%;
 }
 
@@ -151,7 +152,7 @@ margin-top: 40px;
 .column-three img {
 width: 100%;
 margin-bottom: 40px;
-
+margin-top: 20px;
 }
 
 .specials{
@@ -173,6 +174,10 @@ margin-bottom: 40px;
 
 .location-info{
 margin-left: 19px;
+margin-top: 40px;
+margin-bottom: 40px;
+
+
 }
 
 .address {

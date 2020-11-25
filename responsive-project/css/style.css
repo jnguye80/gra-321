@@ -238,6 +238,46 @@ margin-bottom: 20px;
 
 
 @media only screen and (min-width: 800px) {
+
+
+  h1 {
+    font-family: Optima,sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+
+  }
+
+  h2 {
+    font-family: Optima, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+    color: black;
+  }
+
+
+  p1 {
+    font-family: Optima,sans-serif;
+    font-size: 30px;
+    line-height: 48px;
+    color: black;
+    font-weight: lighter;
+  }
+
+  p2{
+    font-family: Optima,sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  p3{
+    font-family: Optima,sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+
+
   .header-nav {
   background-color: #F4ECD6;
   width:95%;
@@ -277,4 +317,21 @@ border-top:none;
   ul.menu-items {
 padding: 0px 0 0px 0;
 height: 60px;
+}
+
+
+#about  {
+  width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .column-one {
+  width: 40%;
+  }
+  .column-two {
+  width: 50%;
+    margin-right: 10%;
+  }
 }

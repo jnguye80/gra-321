@@ -249,7 +249,6 @@ margin-bottom: 20px;
 }
 
 
-
 @media only screen and (min-width: 700px) {
 
 
@@ -295,9 +294,9 @@ margin-bottom: 20px;
   background-color: #F4ECD6;
   width:95%;
   margin: 0 auto;
-    display:flex;
-    align-items: flex-end;
-    justify-content: space-between;
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 
@@ -335,10 +334,10 @@ height: 60px;
 
 #about  {
   width: 100%;
-    display:flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 280px;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 100px;
   }
 
   .column-one {
@@ -349,10 +348,7 @@ height: 60px;
     margin-right: 10%;
   }
 
-  .title-1{
-  text-align: right;
-  margin-right: 76%;
-  }
+
 
   #special-menu{
     width: 100%;
@@ -362,15 +358,14 @@ height: 60px;
       align-items: flex-start;
       flex-direction: row-reverse;
       text-align: left;
-      margin-left: 5%;
-      margin-top: 255px
+      margin-top: 100px
     }
     .column-three{
     width: 40%;
     height: 883px;
     }
 
-    .specials{
+    .specials,.title-one{
     width: 50%;
     margin-left: 8%;
     }
@@ -382,12 +377,11 @@ height: 60px;
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: flex-start;
-      margin-top: 30%;
+      margin-top: 100px;
+}
 
 
-    }
-
-    .column-four{
+   .column-four{
     width: 40%;
     }
 
@@ -407,6 +401,7 @@ height: 60px;
         align-items: flex-start;
         flex-direction: row-reverse;
         text-align: right;
+        margin-top: 100px;
 
       }
 
@@ -428,6 +423,7 @@ height: 60px;
           flex-direction: row;
           align-items: flex-start;
           text-align: right;
+          margin-top: 100px;
 
         }
 
@@ -450,6 +446,7 @@ height: 60px;
             align-items: flex-start;
             flex-direction: row-reverse;
             text-align: left;
+            margin-top: 100px;
 
           }
 
@@ -460,6 +457,6 @@ height: 60px;
 
           .contact-info{
           width: 45%;
-            margin-right: 9%;
-            margin-bottom: 30%;
+          margin-right: 9%;
+          margin-bottom: 30%;
           }

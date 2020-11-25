@@ -23,6 +23,7 @@ p1 {
   font-family: Optima,sans-serif;
   font-size: 20px;
   line-height: 22px;
+  color: black;
 }
 
 p2{
@@ -54,7 +55,7 @@ p3{
 }
 
 #logo {
-height:80px;
+height:60px;
 margin-left: 19px;
 }
 
@@ -143,39 +144,42 @@ width: 100%;
 margin-left: 19px;
 line-height: 31px;
 text-align: left;
-margin-bottom: 40px;
-margin-top: 40px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 
 
 .column-three img {
 width: 100%;
-margin-bottom: 40px;
-margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .specials{
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.title-1{
+margin-left: 19px;
 }
 
 .drinks{
-margin-top: 40px;
-margin-bottom: 40px;
+margin-top: 20px;
 }
+
 
 .contact-info{
 margin-left: 19px;
-margin-top: 40px;
-margin-bottom: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
 
 }
 
 .location-info{
 margin-left: 19px;
-margin-top: 40px;
-margin-bottom: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
 
 
 }
@@ -229,4 +233,48 @@ margin-bottom: 40px;
 #map {
   width: 500px;
   height: 402px;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+  .header-nav {
+  background-color: #F4ECD6;
+  width:95%;
+  margin: 0 auto;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.nav-bar {
+  display:inline-block;
+  position: relative;
+  padding: 30px 0 30px 0;
+  width:100%;
+}
+
+
+#toggle {
+display:none;
+}
+
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display: flex;
+margin: 0;
+list-style-type: none;
+text-align: right;
+border-top:none;
+  width: 400%;
+  justify-content: space-between;
+}
+
+  ul.menu-items {
+padding: 0px 0 0px 0;
+height: 60px;
 }

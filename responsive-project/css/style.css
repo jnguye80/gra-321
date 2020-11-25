@@ -148,9 +148,22 @@ margin-bottom: 20px;
 margin-top: 20px;
 }
 
-
-
 .column-three img {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.column-four img {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.column-five img {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.column-six img {
 width: 100%;
 margin-bottom: 20px;
 }
@@ -237,7 +250,7 @@ margin-bottom: 20px;
 
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
 
 
   h1 {
@@ -259,7 +272,7 @@ margin-bottom: 20px;
 
   p1 {
     font-family: Optima,sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 48px;
     color: black;
     font-weight: lighter;
@@ -310,8 +323,8 @@ margin: 0;
 list-style-type: none;
 text-align: right;
 border-top:none;
-  width: 400%;
-  justify-content: space-between;
+width: 400%;
+justify-content: space-between;
 }
 
   ul.menu-items {
@@ -334,4 +347,115 @@ height: 60px;
   width: 50%;
     margin-right: 10%;
   }
-}
+
+  .title-1{
+  text-align: right;
+  margin-right: 76%;
+  }
+
+  #special-menu{
+    width: 100%;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      flex-direction: row-reverse;
+      text-align: left;
+      margin-left: 5%;
+    }
+    .column-three{
+    width: 40%;
+    height: 883px;
+    }
+
+    .specials{
+    width: 50%;
+    margin-left: 8%;
+    }
+
+
+  #food-menu{
+    width: 100%;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin-top: 30%;
+
+
+    }
+
+    .column-four{
+    width: 40%;
+    }
+
+    .food{
+    width: 50%;
+      margin-right: 10%;
+    }
+
+
+
+
+    #drink-menu{
+      width: 100%;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        text-align: right;
+
+      }
+
+      .column-five{
+      width: 40%;
+      }
+
+      .drinks{
+      width: 50%;
+        margin-right:5%;
+      }
+
+
+      #locations{
+        width: 100%;
+          display:flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: flex-start;
+          text-align: right;
+
+        }
+
+        #map{
+        width: 40%;
+        }
+
+        .location-info{
+        width: 50%;
+          margin-right: 10%;
+        }
+
+
+
+        #contact{
+          width: 50%;
+            display:flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            flex-direction: row-reverse;
+            text-align: right;
+
+          }
+
+          .column-six{
+          width: 40%;
+          }
+
+          .contact-info{
+          width: 50%;
+            margin-right: 10%;
+          }

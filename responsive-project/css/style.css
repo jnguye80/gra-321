@@ -249,7 +249,7 @@ margin-bottom: 20px;
 }
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
 
 
   h1 {
@@ -275,17 +275,6 @@ margin-bottom: 20px;
     line-height: 48px;
     color: black;
     font-weight: lighter;
-  }
-
-  p2{
-    font-family: Optima,sans-serif;
-    font-size: 13px;
-    line-height: 22px;
-  }
-  p3{
-    font-family: Optima,sans-serif;
-    font-size: 15px;
-    line-height: 22px;
   }
 
 
@@ -341,11 +330,16 @@ height: 60px;
   }
 
   .column-one {
-  width: 40%;
+  width: 971px;
+  height: 537px;
   }
   .column-two {
   width: 50%;
     margin-right: 10%;
+  }
+
+  .title-1{
+  margin-left: 3.9%;
   }
 
 
@@ -358,17 +352,24 @@ height: 60px;
       align-items: flex-start;
       flex-direction: row-reverse;
       text-align: left;
-      margin-top: 100px
-    }
-    .column-three{
-    width: 40%;
-    height: 883px;
+      margin-top: 100px;
+
     }
 
-    .specials,.title-one{
-    width: 50%;
-    margin-left: 8%;
+    .column-three{
+    width: 40%;
+    display: inline-block;
+    align-items: flex-start;
     }
+
+    .specials{
+    width: 50%;
+      margin-right:5%;
+      align-items: flex-start;
+      display: inline-block;
+    }
+
+
 
 
   #food-menu{
@@ -400,7 +401,7 @@ height: 60px;
         flex-wrap: wrap;
         align-items: flex-start;
         flex-direction: row-reverse;
-        text-align: right;
+        text-align: left;
         margin-top: 100px;
 
       }
@@ -412,6 +413,7 @@ height: 60px;
       .drinks{
       width: 50%;
         margin-right:5%;
+        float: left;
       }
 
 
@@ -422,7 +424,7 @@ height: 60px;
           flex-wrap: wrap;
           flex-direction: row;
           align-items: flex-start;
-          text-align: right;
+          text-align: left;
           margin-top: 100px;
 
         }
@@ -452,11 +454,10 @@ height: 60px;
 
           .column-six{
           width: 40%;
-          margin-bottom: 30%
+          height: 790px;
           }
 
           .contact-info{
-          width: 45%;
-          margin-right: 9%;
-          margin-bottom: 30%;
+            width: 45%;
+            margin-left: 8%;
           }

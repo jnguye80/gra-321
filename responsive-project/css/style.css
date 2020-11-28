@@ -275,7 +275,7 @@ margin-left: 19px;
 
   .header-nav {
   background-color: #F4ECD6;
-  width:86%;
+  width:95%;
   margin: 0 auto;
   display:flex;
   align-items: flex-end;
@@ -289,7 +289,7 @@ margin-left: 19px;
   display:inline-block;
   position: relative;
   padding: 30px 0 30px 0;
-  width:120%;
+  width:95%;
 }
 
 
@@ -326,7 +326,7 @@ height: 60px;
   }
 
   .column-one {
-  width: 1000px;
+  width: 55%;
   height: 100%;
   }
   .column-two {
@@ -356,7 +356,7 @@ height: 60px;
 
     .specials{
     width: 45%;
-    margin-left: 5%;
+    margin-right:2%;
 
     }
 
@@ -380,7 +380,7 @@ height: 60px;
 
     .food{
     width: 30%;
-    margin-right: 8%;
+    margin-right: 16%;
     }
 
 
@@ -405,7 +405,7 @@ height: 60px;
 
       .drinks{
         width: 40%;
-        margin-left: 6%;
+        margin-left: 3%;
       }
 
 
@@ -453,5 +453,5 @@ height: 60px;
 
         .contact-info{
           width: 30%;
-          margin-left: 8%;
+          margin-left: 4%;
           }

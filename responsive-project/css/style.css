@@ -42,6 +42,7 @@ p3{
 .header-nav {
   background-color: #F4ECD6;
   width:100%;
+  font-weight: bold;
 }
 
 .nav-bar {
@@ -55,7 +56,7 @@ p3{
 }
 
 #logo {
-height:60px;
+height:65px;
 margin-left: 19px;
 }
 
@@ -149,33 +150,33 @@ margin-top: 20px;
 }
 
 .column-three img {
-width: 100%;
-margin-bottom: 20px;
+width: 110%;
+margin-top: 3%;
+margin-bottom:3%;
+
 }
 
 .column-four img {
-width: 100%;
-margin-bottom: 20px;
+width: 110%;
+margin-top: 3%;
+margin-bottom:3%;
+
 }
 
 .column-five img {
-width: 100%;
-margin-bottom: 20px;
+width: 110%;
+margin-top: 3%;
+margin-bottom:3%;
 }
 
 .column-six img {
-width: 100%;
-margin-bottom: 20px;
+width: 110%;
+height: 90%;
+margin-top: 3%;
+margin-bottom:3%;
 }
 
-.specials{
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
 
-.title-1{
-margin-left: 19px;
-}
 
 .drinks{
 margin-top: 20px;
@@ -184,17 +185,12 @@ margin-top: 20px;
 
 .contact-info{
 margin-left: 19px;
-margin-top: 20px;
-margin-bottom: 20px;
+
 
 }
 
 .location-info{
 margin-left: 19px;
-margin-top: 20px;
-margin-bottom: 20px;
-
-
 }
 
 .address {
@@ -205,8 +201,7 @@ margin-bottom: 20px;
   line-height: 25px;
 }
 
-.body-container1
-{
+.body-container1{
   margin-bottom: 10%;
   margin-left: 19px;
   display: inline-block;
@@ -214,8 +209,7 @@ margin-bottom: 20px;
   line-height: 31px;
 }
 
-.body-container2
-{
+.body-container2{
   margin-left: 5%;
   margin-bottom: 3%;
   margin-left: 10%;
@@ -244,12 +238,12 @@ margin-bottom: 20px;
 }
 
 #map {
-  width: 500px;
-  height: 402px;
+  width: 600px;
+  height: 502px;
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
 
 
   h1 {
@@ -281,11 +275,13 @@ margin-bottom: 20px;
 
   .header-nav {
   background-color: #F4ECD6;
-  width:95%;
+  width:86%;
   margin: 0 auto;
   display:flex;
   align-items: flex-end;
   justify-content: space-between;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 
@@ -293,27 +289,27 @@ margin-bottom: 20px;
   display:inline-block;
   position: relative;
   padding: 30px 0 30px 0;
-  width:100%;
+  width:120%;
 }
 
 
-#toggle {
-display:none;
-}
+  #toggle {
+  display:none;
+  }
 
-label {
-display:none;
-}
+  label {
+  display:none;
+  }
 
-ul.menu-items, #toggle:checked ~ ul.menu-items {
-display: flex;
-margin: 0;
-list-style-type: none;
-text-align: right;
-border-top:none;
-width: 400%;
-justify-content: space-between;
-}
+  ul.menu-items, #toggle:checked ~ ul.menu-items {
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+  text-align: right;
+  border-top:none;
+  width: 400%;
+  justify-content: space-between;
+  }
 
   ul.menu-items {
 padding: 0px 0 0px 0;
@@ -330,17 +326,14 @@ height: 60px;
   }
 
   .column-one {
-  width: 971px;
-  height: 537px;
+  width: 1000px;
+  height: 100%;
   }
   .column-two {
   width: 50%;
-    margin-right: 10%;
+  margin-left: 3%;
   }
 
-  .title-1{
-  margin-left: 3.9%;
-  }
 
 
 
@@ -357,16 +350,14 @@ height: 60px;
     }
 
     .column-three{
-    width: 40%;
-    display: inline-block;
-    align-items: flex-start;
+    width: 690px;
+    height: 100%
     }
 
     .specials{
-    width: 50%;
-      margin-right:5%;
-      align-items: flex-start;
-      display: inline-block;
+    width: 45%;
+    margin-left: 5%;
+
     }
 
 
@@ -383,12 +374,13 @@ height: 60px;
 
 
    .column-four{
-    width: 40%;
+     width: 690px;
+     height: 100%
     }
 
     .food{
-    width: 50%;
-      margin-right: 10%;
+    width: 30%;
+    margin-right: 8%;
     }
 
 
@@ -407,57 +399,57 @@ height: 60px;
       }
 
       .column-five{
-      width: 40%;
+        width: 690px;
+        height: 100%
       }
 
       .drinks{
-      width: 50%;
-        margin-right:5%;
-        float: left;
+        width: 40%;
+        margin-left: 6%;
       }
 
 
       #locations{
         width: 100%;
-          display:flex;
-          justify-content: space-between;
-          flex-wrap: wrap;
-          flex-direction: row;
-          align-items: flex-start;
-          text-align: left;
-          margin-top: 100px;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        margin-top: 100px;
 
         }
 
         #map{
-        width: 40%;
+        width: 50%;
         }
 
         .location-info{
-        width: 45%;
-          margin-right: 10%;
+        width: 30%;
+        margin-right: 17%;
         }
 
 
 
         #contact{
           width: 100%;
-            display:flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            align-items: flex-start;
-            flex-direction: row-reverse;
-            text-align: left;
-            margin-top: 100px;
+          display:flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          flex-direction: row-reverse;
+          text-align: left;
+          margin-top: 100px;
 
           }
 
           .column-six{
-          width: 40%;
-          height: 790px;
+            width: 690px;
+            height: 100%
           }
 
           .contact-info{
-            width: 45%;
+            width: 30%;
             margin-left: 8%;
           }

@@ -432,24 +432,26 @@ height: 60px;
 
 
 
-        #contact{
-          width: 100%;
-          display:flex;
-          justify-content: space-between;
-          flex-wrap: wrap;
-          align-items: flex-start;
-          flex-direction: row-reverse;
-          text-align: left;
-          margin-top: 100px;
+
+
+    #contact{
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        text-align: left;
+        margin-top: 100px;
 
           }
 
-          .column-six{
-            width: 690px;
-            height: 100%
+      .column-six{
+        width: 690px;
+        height: 100%
           }
 
-          .contact-info{
-            width: 30%;
-            margin-left: 8%;
+        .contact-info{
+          width: 30%;
+          margin-left: 8%;
           }
